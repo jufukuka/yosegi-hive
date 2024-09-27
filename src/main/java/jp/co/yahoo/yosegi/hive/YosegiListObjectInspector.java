@@ -176,7 +176,7 @@ public class YosegiListObjectInspector implements SettableListObjectInspector {
         }
         return result;
       }
-      return null;
+      return new ArrayList<>();
     } else {
       return (List)object;
     }
